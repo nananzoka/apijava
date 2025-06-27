@@ -11,7 +11,7 @@ import javax.persistence.UniqueConstraint;
 @Table(name = "Usuario", uniqueConstraints = { @UniqueConstraint(columnNames = { "email" }) })
 public class Usuario {
 
-    private long id;
+    private Long id;
     private String email;
     private String senha;
     private String nome;
@@ -19,7 +19,7 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public long getId() {
-        return id;
+        return this.id != null ? this.id : 0L;
     }
 
     public void setId(long id) {

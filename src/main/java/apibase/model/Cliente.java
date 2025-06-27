@@ -5,7 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.persistence.UniqueConstraint;
 
 @Entity //DEFINE A TABELA NO BANCO DE DADOS
 @Table(name = "Cliente")
@@ -52,7 +51,7 @@ public class Cliente {
     @Id // CHAVE PRIMÁRIA
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public long getId() {
-        return id;
+        return this.id != null ? this.id : 0L;
     }
 
     public void setId(long id) {

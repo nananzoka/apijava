@@ -14,8 +14,10 @@ import apibase.repository.ClienteRepository;
 @RestController
 @RequestMapping("/api/v1")
 public class ClienteController {
+    
     @Autowired
     private ClienteRepository clienteRepository;
+
     // Listar todos os clientes
     @GetMapping("/cliente")
     @ResponseStatus(HttpStatus.OK)
