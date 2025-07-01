@@ -13,7 +13,7 @@ public class Cidade {
     private Long id;
     private String descricao;
     private String uf;
-    private Long regiao_id;
+    private Long regiaoid;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -41,14 +41,14 @@ public class Cidade {
         this.uf = uf;
     }
 
-    public Long getRegiao_id() {
-        return regiao_id;
+    public Long getRegiaoid() {
+        return regiaoid;
     }
-
-    public void setRegiao_id(Long regiao_id) {
-        if (regiao_id == null) {
-            regiao_id = 0L;
+    
+    public void setRegiaoid(Long regiaoid) {
+        if (regiaoid == null) {
+            regiaoid = 0L;
         }
-        this.regiao_id = regiao_id;
+        this.regiaoid = regiaoid;
     }   
 }

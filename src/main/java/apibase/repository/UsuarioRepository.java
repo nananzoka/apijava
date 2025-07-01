@@ -17,4 +17,6 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
      * @return an Optional containing the found Usuario, or empty if not found
      */    
     Optional<Usuario> findUsuarioByEmailAndSenha(String email, String senha);
+
+    boolean existsByEmail(String email);
 }
