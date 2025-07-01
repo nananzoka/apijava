@@ -8,5 +8,3 @@ import apibase.model.Produto;
 public interface ProdutoController extends JpaRepository<Produto, Long> {
     
 }
-
-
