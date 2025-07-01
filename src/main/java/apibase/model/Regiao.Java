@@ -40,10 +40,10 @@ public class Regiao {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public double getDescricao() {
+    public String getDescricao() {
         return descricao;
     }
-    public void setDescricao(double descricao) {
+    public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
     public double getEstado() {

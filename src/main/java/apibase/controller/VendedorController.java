@@ -2,9 +2,9 @@ package apibase.controller;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import apibase.model.Regiao;
+import apibase.model.Vendedor;
 
 @Repository
-public interface RegiaoController extends JpaRepository<Regiao, Long> {
+public interface VendedorController extends JpaRepository<Vendedor, Long> {
     
 }
