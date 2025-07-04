@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import apibase.exception.ResourceNotFoundException;
 import apibase.model.Login;
-import apibase.model.Produto;
 import apibase.model.Usuario;
 import apibase.repository.UsuarioRepository;
 

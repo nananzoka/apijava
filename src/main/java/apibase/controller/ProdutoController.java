@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import apibase.exception.ResourceNotFoundException;
-import apibase.model.Cliente;
 import apibase.model.Produto;
 import apibase.repository.ProdutoRepository;
 @CrossOrigin("*")

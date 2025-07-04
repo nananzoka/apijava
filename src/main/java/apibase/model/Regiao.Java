@@ -25,5 +25,37 @@ public class Regiao {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
+    public Object getNome() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getNome'");
+    }
+    public void setNome(Object nome) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setNome'");
+    }
+    public Object getEstado() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getEstado'");
+    }
+    public void setEstado(Object estado) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setEstado'");
+    }
+    public Object getMeta_vendas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getMeta_vendas'");
+    }
+    public void setMeta_vendas(Object meta_vendas) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setMeta_vendas'");
+    }
+    public Object getResponsavel() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getResponsavel'");
+    }
+    public void setResponsavel(Object responsavel) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setResponsavel'");
+    }
         
 }
